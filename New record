@@ -1,0 +1,72 @@
+sh-4.2$ cd Personal_Record_System                                            
+-sh-4.2$ ls -l                                                                
+total 0                                                                       
+drwx------. 2 Nasirizalite Nasirizalite  6 Sep 17 09:15 backups
+drwx------. 2 Nasirizalite Nasirizalite 75 Sep 17 09:18 credentials
+drwx------. 2 Nasirizalite Nasirizalite 59 Sep 17 09:57 notes
+-sh-4.2$ cd credentials                                                       
+-sh-4.2$ ls -l                                                                
+total 12                                                                      
+-rwx------. 1 Nasirizalite Nasirizalite 56 Sep 17 09:26 email_addresses.txt
+-rwx------. 1 Nasirizalite Nasirizalite 32 Sep 17 09:33 passwords.txt
+-rwx------. 1 Nasirizalite Nasirizalite 29 Sep 17 09:35 usernames.txt
+-sh-4.2$ cd notes                                                             
+-sh: cd: notes: No such file or directory                                     
+-sh-4.2$ cd ..                                                                
+-sh-4.2$ pwd                                                                  
+/home/Nasirizalite/Personal_Record_System                                     
+-sh-4.2$ ls                                                                   
+backups  credentials  notes
+-sh-4.2$ cd notes                                                             
+-sh-4.2$ ls -l                                                                
+total 8                                                                       
+-rwx------. 1 Nasirizalite Nasirizalite 102 Sep 17 09:55 important_dates.txt
+-rwx------. 1 Nasirizalite Nasirizalite 166 Sep 17 09:41 personal_notes.txt
+-sh-4.2$ cat important_dates.txt                                              
+1st Oct., 1960                                                                
+Nigeria got her independent                                                   
+13th April 2007 sheikh Jafar was mudered                                      
+let me think more                                                             
+-sh-4.2$ cat personal_notes.txt                                               
+Born on the 11th of August, 2023 at the great Accra Ghana                     
+migrated to Nigeria on the same date to play around with Linux terminal       
+i set a goal of working with Amazon                                           
+-sh-4.2$ cat email_addresses.txt                                              
+cat: email_addresses.txt: No such file or directory                           
+-sh-4.2$                                                                      
+-sh-4.2$ cat passwords.txt                                                    
+cat: passwords.txt: No such file or directory                                 
+-sh-4.2$ cd ..                                                                
+-sh-4.2$ ls -l                                                                
+total 0                                                                       
+drwx------. 2 Nasirizalite Nasirizalite  6 Sep 17 09:15 backups
+drwx------. 2 Nasirizalite Nasirizalite 75 Sep 17 09:18 credentials
+drwx------. 2 Nasirizalite Nasirizalite 59 Sep 17 09:57 notes
+-sh-4.2$ cd credentials                                                       
+-sh-4.2$ ls                                                                   
+email_addresses.txt  passwords.txt  usernames.txt
+-sh-4.2$ cat passwords.txt                                                    
+1234567, huygth5674, koij890000                                               
+-sh-4.2$                                                                      
+-sh-4.2$ cat usernames.txt                                                    
+Nasirizalite                                                                  
+Yaurite                                                                       
+Gshrewd                                                                       
+-sh-4.2$ cd                                                                   
+-sh-4.2$ ls                                                                   
+dir1   movie-record  Movie-Record-System   Personal_Record_System  system
+movie  Movie-record  movies-record_system  Personal_Record-System
+-sh-4.2$ cd ..                                                                
+-sh-4.2$ pwd                                                                  
+/home                                                                         
+-sh-4.2$ cd backups                                                           
+-sh: cd: backups: No such file or directory                                   
+-sh-4.2$ cd Personal_Record_System                                            
+-sh: cd: Personal_Record_System: No such file or directory                    
+-sh-4.2$ pwd                                                                  
+/home                                                                         
+-sh-4.2$ ls                                                                   
+ls: memory exhausted                                                          
+-sh-4.2$ rsync backups                                                        
+-sh: rsync: command not found                                                 
+-sh-4.2$ 
